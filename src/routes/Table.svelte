@@ -6,16 +6,16 @@
     <table class="table">
     <thead>
         <tr>
-            <th>Ladle ID</th>
-            <th>Station</th>
-            <th>Status</th>
-            <th>Entry Time</th>
-            <th>Exit Time</th>
+            <th class="text-center">Ladle ID</th>
+            <th class="text-center">Station</th>
+            <th class="text-center">Status</th>
+            <th class="text-center">Entry Time</th>
+            <th class="text-center">Exit Time</th>
         </tr>
     </thead>
     <tbody>
     {#each Array(100) as _, index (index)}
-      <Row ladleId={2} station={"abcd"} entryTime={"abdc"} exitTime={"abdc"}/>
+      <Row ladleId={index} station={"abcd"} entryTime={"abdc"} exitTime={"abdc"}/>
     {/each}
     </tbody>
     </table>

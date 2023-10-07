@@ -4,9 +4,9 @@
 </script>
 
 <tr class="hover">
-    <th>{ladleId}</th>
-    <td>{station}</td>
-    <td><Status status={"Active"} color={"green"}/></td>
-    <td>{entryTime}</td>
-    <td>{exitTime}</td>
+    <th class="text-center">{ladleId}</th>
+    <td class="text-center">{station}</td>
+    <td class="flex justify-center"><Status status={"Active"}/></td>
+    <td class="text-center">{entryTime}</td>
+    <td class="text-center">{exitTime}</td>
 </tr>
